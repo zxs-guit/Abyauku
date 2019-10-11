@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>ABYAU首页</title>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body onload="show()">
+<!-- header -->
+    <!-- logo -->
+    <div class="Flogo" id="Flogo">
+        <div class="logo">
+            <a href="http://abyau.com/" class="img-logo"><img src="img/logo.jpg" alt=""></a>
+            <div class="L-box">
+                <!-- <a href=""><div class="search"><span class="iconfont icon-search"></span></div></a> -->
+                <div class="sousuo">
+                    <input type="text" id="sys" placeholder="搜索全店">
+                </div>
+                <span class="iconfont icon-search"></span>    
+                <div class="gwc">
+                    <span class="iconfont icon-gwc"></span>
+                    <span class="count">0</span>
+                    <div class="money">
+                        <div>
+                            <p class="zongcount">
+                                <span>0</span>件商品 总计:<span class="jine">￥<span>0</span></span>
+                            </p>
+                            <div class="Fsettlement">
+                                <a href="" class="Settlement">去结算</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- nav -->
+    <div class="Fnav" id="Fnav">
+        <div class="nav">
+            <!-- <div class="nav1">
+                <a href="#">网站首页</a>
+                <a href="#">走进千锋</a>
+                <div>
+                    <a href="#">新闻资讯</a><span class="iconfont icon-arrow-down"></span><span class="iconfont icon-arrow-up"></span>
+                </div>
+                <div>
+                    <a href="#">新闻资讯</a><span class="iconfont icon-arrow-down"></span><span class="iconfont icon-arrow-up"></span>
+                </div>
+                <div>
+                    <a href="#">新闻资讯</a><span class="iconfont icon-arrow-down"></span><span class="iconfont icon-arrow-up"></span>
+                </div>
+            </div>
+            <div class="nav2">
+                <a href="">登录</a>
+                <span>|</span>
+                <a href="">注册</a>
+            </div> -->
+            <div class="nav1">
+                <!-- Single button -->
+                <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        首页 
+                        </button>
+                    </div>
+                    <!-- Single button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            优惠组合
+                        </button>
+                    </div>
+                    <!-- Single button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            所有品牌 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Milk&Co</a></li>
+                            <li><a href="#">Swisse</a></li>
+                            <li><a href="#">Bio island</a></li>
+                            <li><a href="#">Natural instinct</a></li>
+                            <li><a href="#">Alpha Keri</a></li>
+                            <li><a href="#">其他品牌</a></li>
+                        </ul>
+                    </div>
+                    <!-- Single button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            美颜美体 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">面部护理</a></li>
+                            <li><a href="#">身体护理</a></li>
+                            <li><a href="#">美体塑形</a></li>
+                            <li><a href="#">洗发护发</a></li>
+                            <li><a href="#">生活护理</a></li>
+                        </ul>
+                    </div>
+                    <!-- Single button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            营养保健 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">综合营养</a></li>
+                            <li><a href="#">男性健康</a></li>
+                            <li><a href="#">女性健康</a></li>
+                            <li><a href="#">父母长辈</a></li>
+                            <li><a href="#">婴幼保健</a></li>
+                        </ul>
+                    </div>
+                    <!-- Single button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            母婴专属 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">孕妈必备</a></li>
+                            <li><a href="#">婴幼保健</a></li>
+                            <li><a href="#">宝宝洗护</a></li>
+                            <li><a href="#">奶粉辅食</a></li>
+                        </ul>
+                    </div>
+                    <!-- Single button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            宠物食品 
+                    </div>
+                    <!-- Single button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            澳洲美酒 
+                    </div>
+                    <!-- Single button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            购买须知<span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">关于我们</a></li>
+                            <li><a href="#">物流配送</a></li>
+                            <li><a href="#">售后服务</a></li>
+                            <li><a href="#">新手指南</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="nav2">
+                <a href="" class="login">登录</a>
+                <span>|</span>
+                <a href="" class="register">注册</a>
+            </div>
+        </div>
+    </div> 
+<!-- banner -->
+    <div class="Fbanner">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+            
+            <!-- Wrapper for slides 图片-->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/lb1.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <img src="img/lb2.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <img src="img/lb3.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <img src="img/lb4.jpg" alt="...">
+                </div>
+            </div>
+            <!-- Controls 箭头-->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+<!-- 产品分类 -->
+    <div class="Fproduct">
+        <div class="product">
+            <div class="pro">
+                <a href="" class="big">
+                    <div class="text">
+                        <p>Oichee蜂花粉</p>
+                        <span>亚健康克星滋补健体</span>
+                    </div>
+                    <img src="img/pro1.jpg" alt="">
+                </a>
+            </div>
+            <div class="pro">
+                <a href="" class="big">
+                    <div class="text">
+                        <p>顶级奢侈红酒</p>
+                        <span>澳洲红五星酒庄出品</span>
+                    </div>
+                    <img src="img/pro2.jpg" alt="">
+                </a>
+            </div>
+            <div class="pro">
+                <a href="" class="big">
+                    <div class="text">
+                        <p>Lellure水冻膜</p>
+                        <span>熬夜不熬肌逆龄圣品</span>
+                    </div>
+                    <img src="img/pro3.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+<!-- 海外直邮 -->
+    <div class="Fsend">
+        <div class="send">
+            <h3>海外直邮 正品保证</h3>
+            <h5>全球好货 原装正品 海外直邮 线下同步现货发货</h5>
+            <span><a href="">合作伙伴></a></span>
+            <div class="sPic">
+                <div class="sLeft">
+                    <div class="sLeft-top">
+                        <ul>
+                            <li class="sLeft-top-img1">
+                                <a href="" class="top-img1">
+                                    <img src="img/send1.jpg" alt="">
+                                    <div class="sText">
+                                        <p class="sText-p1">黛物会员新人礼</p>
+                                        <p class="sText-p2">点我领「10」元优惠券</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="sLeft-top-img2">
+                                <a href="" class="top-img1">
+                                    <img src="img/send2.jpg" alt="">
+                                    <div class="sText">
+                                        <p class="sText-p1">协助清关 上传身份证</p>
+                                        <p class="sText-p2">合作伙伴 4PX递四方</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sLeft-bottom">
+                        <img src="img/send3.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="sRight">
+                    <div class="sRight-img">
+                        <div class="imgbox"><img src="img/sendR1.jpg" alt=""></div>
+                        <p>澳洲最美丽的保健品牌</p>
+                    </div>
+                    <div class="sRight-img">
+                        <a href="">
+                                <div class="imgbox"><img src="img/sendR2.jpg" alt=""></div>
+                            <p>Alpha Keri 科技与美容护肤完美结合</p>
+                        </a>
+                    </div>
+                    <div class="sRight-img">
+                            <div class="imgbox"><img src="img/sendR3.jpg" alt=""></div>
+                        <p>南方航空</p>
+                    </div>
+                    <div class="sRight-img">
+                            <div class="imgbox"><img src="img/sendR4.jpg" alt=""></div>
+                        <p>360搜索 SO靠谱</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- 品牌合作 -->
+    <div class="Fco-branding">
+        <div class="send co-branding">
+            <h3>品牌合作 时尚精选</h3>
+            <h5>澳洲最全小众产品</h5>
+            <div class="co-braLeft">
+                <a href="">
+                    <img src="img/co-bra1.jpg" alt="">
+                    <div class="border"></div>
+                </a>
+            </div>
+            <div class="co-braRight">
+                <div class="co-braRight-img">
+                    <a href="">
+                        <img src="img/co-bra2.jpg" alt="">
+                        <div class="borderR"></div>
+                    </a>
+                </div>
+                <div class="co-braRight-img">
+                    <a href="">
+                        <img src="img/co-bra3.jpg" alt="">
+                        <div class="borderR"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- 大家都说 -->
+    <div class="Fsays">
+        <div class="says">
+            <div class="send stitlt">
+                <h3>大家都在说</h3>
+                <h5>100%澳洲正品</h5>
+            </div>
+            <ul class="sul">
+                <li>
+                    <div class="Fevaluate">
+                        <div class="simgbox"><img src="img/says1.jpg" alt=""></div>
+                        <!-- evaluate:评价 -->
+                        <div class="evaluate">
+                            <div>
+                                <div class="name">
+                                    <span class="productname">Oichee 白瓷肌蜂花粉咀嚼片</span>
+                                    <span class="price">¥175</span>
+                                </div>
+                                <div class="speak">
+                                    <p>强烈安利！！每天餐后就服用两颗，直接咀嚼吃掉。近段时间即使熬夜也没怎么长痘，皮肤也确实没有之前那么暗黄！！坚持吃！</p>
+                                </div>
+                                <div class="who">
+                                    <span class="whoer">艾莉森魏</span>
+                                    <span class="date">2018-09-06 011:56</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="Fevaluate">
+                        <div class="simgbox"><img src="img/says2.jpg" alt=""></div>
+                        <!-- evaluate:评价 -->
+                        <div class="evaluate">
+                            <div>
+                                <div class="name">
+                                    <span class="productname">Purahealth ® -Turmeric  姜黃素</span>
+                                    <span class="price">¥199</span>
+                                </div>
+                                <div class="speak">
+                                    <p>一直以来肠胃都不是很好,动不动就胀气,本来就有吃姜黄的习惯,但这款加了黑胡椒跟生姜,效果又更好了</p>
+                                </div>
+                                <div class="who">
+                                    <span class="whoer">Minna Huang</span>
+                                    <span class="date">2018-08-24 13:20</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="Fevaluate">
+                        <div class="simgbox"><img src="img/says3.jpg" alt=""></div>
+                        <!-- evaluate:评价 -->
+                        <div class="evaluate">
+                                <div>
+                                    <div class="name">
+                                        <span class="productname">Golp 狗狗巧克力</span>
+                                        <span class="price">¥98</span>
+                                    </div>
+                                    <div class="speak">
+                                        <p>我家的狗狗超级爱吃，天生的吃货啊。同小区养狗的哥们儿推荐来买的，收到货超级惊喜！！还是兽医们精心研制的，完全放心给狗狗吃啊。</p>
+                                    </div>
+                                    <div class="who">
+                                        <span class="whoer">Bella 虫只</span>
+                                        <span class="date">2018-09-20 12:17</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="Fevaluate">
+                        <div class="simgbox lastimg"><img src="img/says4.jpg" alt=""></div>
+                        <!-- evaluate:评价 -->
+                        <div class="evaluate">
+                            <div>
+                                <div class="name">
+                                    <span class="productname">Lellure澳洲熬夜冻膜</span>
+                                    <span class="price">¥259</span>
+                                </div>
+                                <div class="speak">
+                                    <p>当初看到张韶涵在微博上打call才买来试试看,本身设计工作马一只,每天为了图片挑灯夜战,隔天去约会完全不敢抬起头呀,但自从用了这个熬夜冻膜,几乎看不到前晚的疲累了！</p>
+                                </div>
+                                <div class="who">
+                                    <span class="whoer">盈盈儿</span>
+                                    <span class="date">2018-09-17 19:22</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!-- footer -->
+    <div class="Ffooter">
+        <div class="footer">
+            <div class="footer-T">
+                <div class="T-left">
+                    <a href="index.html"><img src="img/s.png" alt=""></a>
+                    <p>ABYAU黛物集合了澳洲有机美妆护肤，保健健身以及提升生活品质的各样好物，为您提供极简海外购物模式。 除了国内外家喻户晓的品牌，更有博主亲自挑选的各种好用澳洲本土品牌。黛物专注于为顾客提供高品质的天然有机生活，同时也从未停止寻找高品质的产品，只为将更多，更美，更好的产品带给顾客。</p>
+                </div>
+                <div class="T-center">
+                    <dl>
+                        <dt><a href="">新手指南</a></dt>
+                        <dd><a href="">购物流程</a></dd>
+                        <dd><a href="">支付方式</a></dd>
+                        <dd><a href="">通关税费</a></dd>
+                        <dd><a href="">常见问题</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="">售后服务</a></dt>
+                        <dd><a href="">退货政策</a></dd>
+                        <dd><a href="">退货流程</a></dd>
+                        <dd><a href="">退款说明</a></dd>
+                        <dd><a href="">联系客服</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="">物流配送</a></dt>
+                        <dd><a href="">身份证上传</a></dd>
+                        <dd><a href="">配送方式</a></dd>
+                        <dd><a href="">物流跟踪</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="">联系我们</a></dt>
+                        <dd><a href="">联系我们</a></dd>
+                        <dd><a href="">招商合作</a></dd>
+                    </dl>
+                </div>
+                <div class="T-right">
+                    <div class="QRcode">
+                        <img src="img/QRcode1.jpg" alt="">
+                        <p>微信公众号</p>
+                    </div>
+                    <div class="QRcode code">
+                        <img src="img/QRcode2.jpg" alt="">
+                        <p>微博账号</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <span class="f-border"></span>
+            <div class="footer-B">
+
+            </div> -->
+        </div>
+        <div class="footer-B-bottom">
+            <div class="footer-B">
+                <div class="footer-B-left">
+                        <div class="beihao">
+                            <a href="http://www.miitbeian.gov.cn" target="_blank">沪ICP备17045690号</a> © 2018 abyau.com
+                        </div>
+                    <div>
+                        <span class="iconfont icon-wxzf" title="微信支付"></span>
+                        <span class="iconfont icon-zfb" title="支付宝"></span>
+                        <span class="iconfont icon-bdqb" title="百度钱包"></span>
+                        <span class="iconfont icon-cft" title="财付通"></span>
+                        <span class="iconfont icon-kq" title="快钱"></span>
+                        <span class="iconfont icon-hdfk" title="货到付款"></span>
+                        <span class="iconfont icon-yhk" title="银行卡"></span>
+                    </div>
+                </div>
+                <div class="footer-B-right">
+                    <ul>
+                        <li>
+                            <a href="" target="_blank">
+                                <img src="img/footer-B-right1.png" alt="" class="picc">
+                                <img src="img/footer-B-right11.png" alt="" class="picc1 picc2">
+                                <span class="footer-text">可信联盟<br>身份验证</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank">
+                                <img src="img/footer-B-right2.png" alt="" class="picc">
+                                <img src="img/footer-B-right22.png" alt="" class="picc1 picc3">
+                                <span class="footer-text">工商网监<br>电子标识</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank">
+                                <img src="img/footer-B-right3.png" alt="" class="picc">
+                                <img src="img/footer-B-right33.png" alt="" class="picc1 picc4">
+                                <span class="footer-text">安全联盟<br>实名验证</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+    </div>
+<!-- fixed -->
+    <div class="fix">
+        <div class="Ficonfont wechat"><span class="iconfont icon-wechat"></span></div>
+        <div class="wechatkf"><span class="wechatkf-sp">客服</span><span>1</span></div>
+        <div class="Ficonfont"><span class="iconfont icon-top"></span></div>
+        <div class="kf"><img src="img/kf.jpg" alt=""></div>
+    </div>
+</body>
+</html>
+<script src="js/index.js"></script>
+<script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script>
+    // $(".wechat").mouseenter(function(){
+    //     $(".wechat").css({
+    //         "display":"none"
+    //     });
+    //     $(".wechatkf").css({
+    //         "display": "block",
+    //     });
+    //     $(".kf").css({
+    //         "display": "block",
+    //     });
+    // })
+    // $(".wechat").mouseleave(function(){
+    //     $(".wechat").css({
+    //         "display":"block"
+    //     });
+    //     $(".wechatkf").css({
+    //         "display": "none",
+    //     });
+    //     $(".kf").css({
+    //         "display": "none",
+    //     });
+    // })
+</script>
