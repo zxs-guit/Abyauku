@@ -80,7 +80,9 @@ gulp.task("watchall",async ()=>{
     gulp.watch("sass/**/*.scss",async ()=>{
         gulp.src("sass/**/*.scss")
         .pipe(sass())
+        .pipe(gulp.dest("css"))
         .pipe(minify())
+        // .pipe(gulp.dest("css"))
 		.pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\css"));  //先在本地文件中产生对应的css文件，然后再监听到www中
     });
 });
