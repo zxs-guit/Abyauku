@@ -41,6 +41,13 @@
       "unicode_decimal": 58975
     },
     {
+      "icon_id": "657545",
+      "name": "分期－销量排序",
+      "font_class": "xl",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
       "icon_id": "925818",
       "name": "支付宝",
       "font_class": "zfb",
@@ -69,6 +76,13 @@
       "unicode_decimal": 58890
     },
     {
+      "icon_id": "2983210",
+      "name": "开关 关",
+      "font_class": "kg",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
       "icon_id": "5890015",
       "name": "银行卡",
       "font_class": "yhk",
@@ -76,11 +90,25 @@
       "unicode_decimal": 58904
     },
     {
+      "icon_id": "6406265",
+      "name": "上架时间",
+      "font_class": "time",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
       "icon_id": "7196771",
       "name": "上箭头",
       "font_class": "top",
       "unicode": "e602",
       "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "7874844",
+      "name": "购物车-23",
+      "font_class": "qicheqianlian-1",
+      "unicode": "e603",
+      "unicode_decimal": 58883
     },
     {
       "icon_id": "11132208",

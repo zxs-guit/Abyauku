@@ -15,13 +15,10 @@ body{
 	font-family: "微软雅黑";
 }
 
-
-
 /* logo */
 .Flogo{
 	width: 100%;
 	height: 80px;
-
 }
 .logo{
 	width: 1143px;
@@ -731,7 +728,7 @@ dl a:hover{
 /* fix */
 .fix{
 	position: fixed;
-    bottom: 60px;
+    bottom: 110px;
 	left: 93%;
 }
 .Ficonfont{
@@ -740,7 +737,7 @@ dl a:hover{
 	background: #b8d8ca;
 	margin-bottom: 12px;
 }
-.fix .iconfont{
+.iconfont{
 	display: block;
 	color: #eaf3ef;
 	font-size: 34px;
@@ -758,9 +755,9 @@ dl a:hover{
 	width: 140px;
 	height: 140px;
 }
-/* .wechat:hover~.kf{
+.wechat:hover~.kf{
 	display: block;
-} */
+}
 .wechatkf{
 	width: 50px;
 	height: 50px;
@@ -779,6 +776,9 @@ dl a:hover{
 .wechatkf-sp{
 	padding-top: 10px;
 }
-/* .wechat:hover+.wechatkf{
-	display: block;
-} */
+#gogo{
+	position: fixed;
+    left: 93%;
+	bottom: 50px;
+	display: none;
+}
