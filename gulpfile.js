@@ -11,10 +11,10 @@ const sass=require("gulp-sass");
 // });
 
 // 拷贝html
-// gulp.task("copy-html",async ()=>{
-// 	gulp.src("*.html")
-// 	.pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew"));
-// });
+gulp.task("copy-html",async ()=>{
+	gulp.src("*.html")
+	.pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew"));
+});
 
 //拷贝css
 // gulp.task('copy-css', function() {
@@ -62,12 +62,12 @@ gulp.task("watchall",async ()=>{
         .pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\js"));
     })
 
-    //监听并压缩CSS
-    gulp.watch("css/*.css",async ()=>{
-        gulp.src("css/*.css")
-        .pipe(minify())
-		.pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\css"));
-    });
+    // //监听并压缩CSS
+    // gulp.watch("css/*.css",async ()=>{
+    //     gulp.src("css/*.css")
+    //     .pipe(minify())
+	// 	.pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\css"));
+    // });
 
     //监听图片  图片可以过去，如果要删除和重命名，需要手动删除www中的图片
     gulp.watch('img/**/*',async ()=>{
@@ -81,8 +81,19 @@ gulp.task("watchall",async ()=>{
         gulp.src("sass/**/*.scss")
         .pipe(sass())
         .pipe(gulp.dest("css"))
-        .pipe(minify())
+        // .pipe(minify())
         // .pipe(gulp.dest("css"))
 		.pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\css"));  //先在本地文件中产生对应的css文件，然后再监听到www中
+    });
+    gulp.watch("sass/**/*.scss",async ()=>{
+        gulp.src("sass/**/*.scss")
+        .pipe(sass())
+		.pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\css"));  //先在本地文件中产生对应的css文件，然后再监听到www中
+    });
+      //监听并压缩CSS
+      gulp.watch("css/*.css",async ()=>{
+        gulp.src("css/*.css")
+        .pipe(minify())
+		.pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\css"));
     });
 });

@@ -14,7 +14,22 @@ window.onscroll = function(){
         Fnav.style.position = "absolute";
         Fnav.style.top = "80px";
     }
+}
 
+// $(".wechat").mouseenter(function(){
+//     $(".wechat").css({
+//         "display":"none"
+//     });
+//     $(".wechatkf").css({
+//         "display":"block"
+//     });
+//     $(".kf").css({
+//         "display":"block"
+//     });
+// })
+
+// 回到顶部
+window.onscroll = function(){
     var fix=this.document.getElementsByClassName("fix");
     var go = document.getElementById("gogo");
     var boxTop = document.documentElement.scrollTop || document.body.scrollTop;
@@ -35,41 +50,6 @@ window.onscroll = function(){
         `;
     }
 }
-
-// $(".wechat").mouseenter(function(){
-//     $(".wechat").css({
-//         "display":"none"
-//     });
-//     $(".wechatkf").css({
-//         "display":"block"
-//     });
-//     $(".kf").css({
-//         "display":"block"
-//     });
-// })
-
-// 回到顶部
-// window.onscroll = function(){
-//     // var fix=this.document.getElementsByClassName("fix");
-//     // var go = document.getElementById("gogo");
-//     // var boxTop = document.documentElement.scrollTop || document.body.scrollTop;
-//     // if(boxTop>=250){
-//     //     go.style.display = "block";
-//     //     fix[0].style.cssText=`
-//     //         position: fixed;
-//     //         bottom: 110px;
-//     //         left: 93%;
-//     //     `;
-//     // }
-//     // else{
-//     //     go.style.display = "none";
-//     //     fix[0].style.cssText=`
-//     //         position: fixed;
-//     //         left: 93%;
-//     //         bottom: 50px;
-//     //     `;
-//     // }
-// }
 
 function gotop(){
     document.documentElement.scrollTop = document.body.scrollTop = 0;

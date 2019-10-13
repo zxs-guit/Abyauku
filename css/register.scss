@@ -1,0 +1,44 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,td,input,textarea{
+	margin:0;
+	padding:0;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:none;
+}
+body{
+	font-family: "微软雅黑";
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+
+$Fwidth:100%;
+.Regbox{
+    width: $Fwidth;
+    height: 710px;
+    background: url(../img/logBg.jpg);
+    background-size: 100% 710px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Rregister{
+    width: 400px;
+    height: 468px;
+    background: #ffffff;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+.Rregister h4{
+    font-size: 18px;
+    margin: 0 0 24px;
+}

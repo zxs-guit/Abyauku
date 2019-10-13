@@ -4,52 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <title>Register</title>
+    <title>register</title>
     <link rel="stylesheet" href="css/iconfont.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/share.css">
     <link rel="stylesheet" href="css/register.css">
 </head>
 <body>
-     <!-- logo -->
-    <div class="Flogo" id="Flogo">
-    </div>
-    <!-- nav -->
-    <div class="Fnav" id="Fnav">
-    </div> 
-
+    <!-- 引用公共头部 -->
+    <div class="Ylogo"></div>
+    <div class="Ynav"></div>
     <!-- 注册页面的 -->
     <div class="Regbox">
-
+        <div class="Rregister">
+            <h4>注册</h4>
+        </div>
     </div>
-
-    <!-- footer  -->
-    <div class="Ffooter">
-    </div>
-    <!-- fixed -->
-    <div class="fix">
-    </div>
-    <div class="Ficonfont" id="gogo" onclick="gotop()"><span class="iconfont icon-top"></span></div>
-
+    <!-- 引用公共尾部 -->
+    <div class="Yfooter"></div>
+    <div class="Yfix"></div>
+    <div class="YFiconfont"></div>
 </body>
 </html>
-<!-- <script src="js/index.js"></script> -->
 <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!-- <script src="js/register.js"></script> -->
+<script src="js/jquery-1.8.3.min.js"></script>
 <script>
 $(function(){
-    $(".Flogo").load("index.html .Flogo", function () {
-        $.getScript("js/index.js");
+    $(".Ylogo").load("share.html .Flogo", function () {
+        $.getScript("js/share.js");
     });
-    $(".Fnav").load("index.html .Fnav", function () {
-        $.getScript("js/index.js");
+    $(".Ynav").load("share.html .Fnav", function () {
+        $.getScript("js/share.js");
     });
-    $(".Ffooter").load("index.html .Ffooter", function () {
-        $.getScript("js/index.js");
+    $(".Yfooter").load("share.html .Ffooter", function () {
+        $.getScript("js/share.js");
     });
-    $(".fix").load("index.html .fix", function () {
-        $.getScript("js/index.js");
+    $(".Yfix").load("share.html .fix", function () {
+        $.getScript("js/share.js");
+    });
+    $(".YFiconfont").load("share.html #gogo", function () {
+        $.getScript("js/share.js");
     });
 })
 </script>
