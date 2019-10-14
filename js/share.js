@@ -14,22 +14,7 @@ window.onscroll = function(){
         Fnav.style.position = "absolute";
         Fnav.style.top = "80px";
     }
-}
 
-// $(".wechat").mouseenter(function(){
-//     $(".wechat").css({
-//         "display":"none"
-//     });
-//     $(".wechatkf").css({
-//         "display":"block"
-//     });
-//     $(".kf").css({
-//         "display":"block"
-//     });
-// })
-
-// 回到顶部
-window.onscroll = function(){
     var fix=this.document.getElementsByClassName("fix");
     var go = document.getElementById("gogo");
     var boxTop = document.documentElement.scrollTop || document.body.scrollTop;

@@ -32,7 +32,7 @@ $Fwidth:100%;
 }
 .Rregister{
     width: 400px;
-    height: 468px;
+    height: 406px;
     background: #ffffff;
     // text-align: center;
     display: flex;
@@ -46,7 +46,7 @@ $Fwidth:100%;
 $width1:320px;
 form{
     width: $width1;
-    height:260px;
+    height:198px;
 }
 .qitalogin{
     width: $width1;
@@ -59,24 +59,22 @@ form{
     border-radius: 5px;
     margin-bottom: 20px;
 }
+.rapid{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.rapid a{
+    text-decoration: none;
+    color: #555555;
+}
+.forget{
+    float: right;
+}
 .Rstyle button{
     width: $width1;
     height: 48px;
     border-radius: 5px;
     background: #9ac7b3;
-}
-.directLogin{
-    font-size: 12px;
-    margin-bottom: 10px;
-    color: #999;
-}
-.directLogin-a{
-    color: #555555;
-    text-decoration: none;
-}
-.directLogin-a:hover{
-    color: #555555;
-    text-decoration: none;
 }
 .qitalogin .Fshejiao{
     text-align: center;

@@ -96,4 +96,9 @@ gulp.task("watchall",async ()=>{
         .pipe(minify())
 		.pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\css"));
     });
+    // 监听php
+    gulp.watch('php/**/*',async ()=>{
+        gulp.src("php/**/*")
+        .pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\php"));
+    });
 });
