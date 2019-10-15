@@ -53,7 +53,8 @@ form {
   width: 320px;
   height: 42px;
   border-radius: 5px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border: 1px solid #999; }
 
 .Rstyle button {
   width: 320px;

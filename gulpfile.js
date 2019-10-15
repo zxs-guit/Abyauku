@@ -17,10 +17,10 @@ gulp.task("copy-html",async ()=>{
 });
 
 //拷贝css
-// gulp.task('copy-css', function() {
-//     gulp.src('css/**/*')
-//     .pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\css"));
-// });
+gulp.task('copy-css', function() {
+    gulp.src('css/**/*')
+    .pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\css"));
+});
 
 // 拷贝js
 // gulp.task('copy-js', function() {

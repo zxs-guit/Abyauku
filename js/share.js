@@ -35,7 +35,7 @@ window.onscroll = function(){
         `;
     }
 }
-
+// 回到顶部
 function gotop(){
     document.documentElement.scrollTop = document.body.scrollTop = 0;
 }

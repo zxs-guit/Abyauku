@@ -53,11 +53,12 @@ form{
     height: 70px;
     margin-top: 30px;
 }
-.Rstyle input{
+.Rregister .Rstyle input{
     width: $width1;
     height: 42px;
     border-radius: 5px;
     margin-bottom: 20px;
+    border: 1px solid #999 !important;
 }
 .rapid{
     font-size: 12px;
