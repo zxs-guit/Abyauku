@@ -117,7 +117,22 @@ body {
   width: 143px;
   height: 56px;
   float: left;
-  line-height: 56px; }
+  line-height: 56px;
+  display: none; }
+
+#welcomeBox {
+  width: 143px;
+  height: 56px;
+  float: left;
+  line-height: 56px;
+  display: none; }
+
+.registerName {
+  margin-left: 60px; }
+
+#btnLogout {
+  background: white;
+  border: none; }
 
 .nav2 a {
   text-decoration: none;

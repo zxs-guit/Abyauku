@@ -34,6 +34,8 @@ btnLogin.onclick=function(){
                 alert("用户名或密码不正确");
             }
             else if(xhr.responseText=="1"){
+                //添加cookie
+                addCookie("username",username.value,7);  //保存7天
                 location.href="index.html";
             }
         }
