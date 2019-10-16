@@ -1,0 +1,84 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,td,input,textarea{
+	margin:0;
+	padding:0;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:none;
+}
+body{
+	font-family: "微软雅黑";
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+$width:100%;
+$pageWidth:1143px;
+$borderDirection:bottom;
+
+.Fall{
+    width: $width;
+    margin-top: 56px;
+    .all{
+        width: $pageWidth;
+        height: 2064px;
+        background: pink;
+        margin: 0 auto;
+        .wrapper{
+            width: $pageWidth;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .cont{
+                width: 1080px;
+                height: 40px;
+                line-height: 40px;
+                border-#{$borderDirection}:1px solid #dddddd;
+                a{
+                    color: #555555;
+                }
+                a:hover{
+                    text-decoration: none;
+                    
+                }
+            }
+        }
+        .know{
+            text-align: center;
+            font-weight: bold;
+            color: #50586b;
+            font-size: 26px;
+            line-height: 33px;
+            display: block;
+            margin-bottom: 20px;
+        }
+        .know:hover{
+            text-decoration: none;
+        }
+    }
+    .tab{
+        width: $width;
+        height: 368px;
+        background: greenyellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        table{
+            width: 1080px;
+            height: 368px;
+            background: indianred;
+            tbody{
+                display: table-row-group;
+                vertical-align: middle;
+                border-color: inherit;
+            }
+        }
+    }
+}

@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 $Fwidth:100%;
+$width1:320px;
 .Regbox{
     width: $Fwidth;
     height: 710px;
@@ -43,7 +44,6 @@ $Fwidth:100%;
     font-size: 18px;
     margin: 0 0 24px;
 }
-$width1:320px;
 form{
     width: $width1;
     height:260px;

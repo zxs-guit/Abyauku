@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, hr, td, input, textarea {
+  margin: 0;
+  padding: 0; }
+
+ul, ol, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: none; }
+
+body {
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; }
+
+.Fall {
+  width: 100%;
+  margin-top: 56px; }
+  .Fall .all {
+    width: 1143px;
+    height: 2064px;
+    background: pink;
+    margin: 0 auto; }
+    .Fall .all .wrapper {
+      width: 1143px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .Fall .all .wrapper .cont {
+        width: 1080px;
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 1px solid #dddddd; }
+        .Fall .all .wrapper .cont a {
+          color: #555555; }
+        .Fall .all .wrapper .cont a:hover {
+          text-decoration: none; }
+    .Fall .all .know {
+      text-align: center;
+      font-weight: bold;
+      color: #50586b;
+      font-size: 26px;
+      line-height: 33px;
+      display: block;
+      margin-bottom: 20px; }
+    .Fall .all .know:hover {
+      text-decoration: none; }
+  .Fall .tab {
+    width: 100%;
+    height: 368px;
+    background: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .Fall .tab table {
+      width: 1080px;
+      height: 368px;
+      background: indianred; }
+      .Fall .tab table tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        border-color: inherit; }
