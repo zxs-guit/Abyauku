@@ -22,9 +22,11 @@ $width:100%;
 $pageWidth:1143px;
 $borderDirection:bottom;
 
+
 .Fall{
     width: $width;
     margin-top: 56px;
+// 1.所有品牌
     .all{
         width: $pageWidth;
         height: 2064px;
@@ -46,7 +48,6 @@ $borderDirection:bottom;
                 }
                 a:hover{
                     text-decoration: none;
-                    
                 }
             }
         }
@@ -57,7 +58,7 @@ $borderDirection:bottom;
             font-size: 26px;
             line-height: 33px;
             display: block;
-            margin-bottom: 20px;
+            margin-#{$borderDirection}: 20px;
         }
         .know:hover{
             text-decoration: none;
@@ -66,18 +67,88 @@ $borderDirection:bottom;
     .tab{
         width: $width;
         height: 368px;
-        background: greenyellow;
         display: flex;
         justify-content: center;
         align-items: center;
         table{
             width: 1080px;
             height: 368px;
-            background: indianred;
             tbody{
                 display: table-row-group;
                 vertical-align: middle;
                 border-color: inherit;
+                tr {
+                    display: table-row;
+                    vertical-align: inherit;
+                    border-color: inherit;
+                    .thborder{    
+                        text-align: center;
+                        line-height: 1.2;
+                        width: 90px;
+                        padding: 15px 0;
+                        border:1px solid #dddddd;
+                        color: #555555;
+                    }
+                    .title{
+                        padding: 12px;
+                        line-height: 1.6;
+                        .Astyle{
+                            font-size: 14px;
+                            margin-right: 36px;
+                            white-space: nowrap;
+                            color: #000000;
+                        }
+                    }
+                    td{
+                        border: 1px solid #dddddd;
+                    }
+                }
+                tr:nth-of-type(even) {
+                    background: #f3f4f4;
+                }
+            }
+        }
+    }
+    /* 2.排序 */
+    .sortbox{
+        width: $pageWidth;
+        height: 40px;
+        background: yellow;
+        margin: 0 auto;
+        margin-top: 36px;
+        .sort{
+            width: 1080px;
+            height: 40px;
+            background: green;
+            margin: 0 auto;
+            .sort-left{
+                width: 424px;
+                height: 40px;
+                background: rosybrown;
+                float: left;
+                .sort-title{
+                    line-height: 40px;
+                    height: 40px;
+                    display: inline-block;
+                    font-weight: bold;
+                    margin: 0 15px 0 0;
+                    color: #999999;
+                }
+            }
+            // .kaiguan{
+
+            // }
+            .sort-right{
+                width: 100px;
+                height: 40px;
+                background: blue;
+                float: right;
+                font-size: 14px;
+                line-height: 40px;
+                .count{
+                    color: #999999;
+                    font-size: 14px;
+                }
             }
         }
     }

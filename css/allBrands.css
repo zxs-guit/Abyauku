@@ -20,7 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .Fall {
   width: 100%;
-  margin-top: 56px; }
+  margin-top: 56px;
+  /* 2.排序 */ }
   .Fall .all {
     width: 1143px;
     height: 2064px;
@@ -54,15 +55,69 @@ h1, h2, h3, h4, h5, h6 {
   .Fall .tab {
     width: 100%;
     height: 368px;
-    background: greenyellow;
     display: flex;
     justify-content: center;
     align-items: center; }
     .Fall .tab table {
       width: 1080px;
-      height: 368px;
-      background: indianred; }
+      height: 368px; }
       .Fall .tab table tbody {
         display: table-row-group;
         vertical-align: middle;
         border-color: inherit; }
+        .Fall .tab table tbody tr {
+          display: table-row;
+          vertical-align: inherit;
+          border-color: inherit; }
+          .Fall .tab table tbody tr .thborder {
+            text-align: center;
+            line-height: 1.2;
+            width: 90px;
+            padding: 15px 0;
+            border: 1px solid #dddddd;
+            color: #555555; }
+          .Fall .tab table tbody tr .title {
+            padding: 12px;
+            line-height: 1.6; }
+            .Fall .tab table tbody tr .title .Astyle {
+              font-size: 14px;
+              margin-right: 36px;
+              white-space: nowrap;
+              color: #000000; }
+          .Fall .tab table tbody tr td {
+            border: 1px solid #dddddd; }
+        .Fall .tab table tbody tr:nth-of-type(even) {
+          background: #f3f4f4; }
+  .Fall .sortbox {
+    width: 1143px;
+    height: 40px;
+    background: yellow;
+    margin: 0 auto;
+    margin-top: 36px; }
+    .Fall .sortbox .sort {
+      width: 1080px;
+      height: 40px;
+      background: green;
+      margin: 0 auto; }
+      .Fall .sortbox .sort .sort-left {
+        width: 424px;
+        height: 40px;
+        background: rosybrown;
+        float: left; }
+        .Fall .sortbox .sort .sort-left .sort-title {
+          line-height: 40px;
+          height: 40px;
+          display: inline-block;
+          font-weight: bold;
+          margin: 0 15px 0 0;
+          color: #999999; }
+      .Fall .sortbox .sort .sort-right {
+        width: 100px;
+        height: 40px;
+        background: blue;
+        float: right;
+        font-size: 14px;
+        line-height: 40px; }
+        .Fall .sortbox .sort .sort-right .count {
+          color: #999999;
+          font-size: 14px; }
