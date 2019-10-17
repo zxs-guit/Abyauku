@@ -17,16 +17,16 @@ gulp.task("copy-html",async ()=>{
 });
 
 //拷贝css
-gulp.task('copy-css', function() {
+gulp.task('copy-css', async ()=>{
     gulp.src('css/**/*')
     .pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\css"));
 });
 
 // 拷贝js
-// gulp.task('copy-js', function() {
-//     gulp.src('js/**/*')
-//     .pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\js"));
-// });
+gulp.task('copy-js', async ()=>{
+    gulp.src('js/**/*')
+    .pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\js"));
+});
 
 //拷贝img
 // gulp.task("copy-img",async ()=>{

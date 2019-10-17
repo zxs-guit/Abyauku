@@ -39,3 +39,25 @@ window.onscroll = function(){
 function gotop(){
     document.documentElement.scrollTop = document.body.scrollTop = 0;
 }
+
+// 保存cookie
+var welcomeBox=document.getElementById("welcomeBox");
+var nav2=document.getElementById("nav2");
+var btnLogout=document.getElementById("btnLogout");
+function showUser(){
+    let username=getCookie("username");
+    if(username!=null){
+        welcomeBox.firstElementChild.innerHTML = username;
+        welcomeBox.style.display ="block";
+        nav2.style.display ="none";
+    }else{
+        welcomeBox.style.display ="none";
+        nav2.style.display ="block";
+    }
+}
+
+btnLogout.onclick=function(){
+    removeCookie("username");
+    showUser();
+}
+

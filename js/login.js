@@ -4,7 +4,9 @@ $(function(){
         $.getScript("js/share.js");
     });
     $(".Ynav").load("share.html .Fnav", function () {
-        $.getScript("js/share.js");
+        $.getScript("js/share.js",function(){
+             showUser();
+        });
     });
     $(".Yfooter").load("share.html .Ffooter", function () {
         $.getScript("js/share.js");

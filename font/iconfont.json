@@ -97,25 +97,11 @@
       "unicode_decimal": 58890
     },
     {
-      "icon_id": "1473646",
-      "name": "人人网",
-      "font_class": "renren1",
-      "unicode": "e654",
-      "unicode_decimal": 58964
-    },
-    {
       "icon_id": "2983210",
       "name": "开关 关",
       "font_class": "kg",
       "unicode": "e639",
       "unicode_decimal": 58937
-    },
-    {
-      "icon_id": "3654478",
-      "name": "登录-QQ登录-选中",
-      "font_class": "qq1",
-      "unicode": "e63a",
-      "unicode_decimal": 58938
     },
     {
       "icon_id": "5448686",
@@ -130,13 +116,6 @@
       "font_class": "yhk",
       "unicode": "e618",
       "unicode_decimal": 58904
-    },
-    {
-      "icon_id": "6209708",
-      "name": "网易",
-      "font_class": "wangyi1",
-      "unicode": "e604",
-      "unicode_decimal": 58884
     },
     {
       "icon_id": "6406265",
@@ -160,13 +139,6 @@
       "unicode_decimal": 58882
     },
     {
-      "icon_id": "7254067",
-      "name": "微信登录",
-      "font_class": "wechat0",
-      "unicode": "e648",
-      "unicode_decimal": 58952
-    },
-    {
       "icon_id": "7615330",
       "name": "微信登录",
       "font_class": "wechat1",
@@ -181,13 +153,6 @@
       "unicode_decimal": 58883
     },
     {
-      "icon_id": "8906960",
-      "name": "微博",
-      "font_class": "weibo1",
-      "unicode": "e687",
-      "unicode_decimal": 59015
-    },
-    {
       "icon_id": "11132208",
       "name": "arrow-down",
       "font_class": "arrow-down",
@@ -200,13 +165,6 @@
       "font_class": "arrow-up",
       "unicode": "e63c",
       "unicode_decimal": 58940
-    },
-    {
-      "icon_id": "11188796",
-      "name": "豆瓣",
-      "font_class": "douban1",
-      "unicode": "e60c",
-      "unicode_decimal": 58892
     }
   ]
 }

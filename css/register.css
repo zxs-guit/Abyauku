@@ -101,7 +101,8 @@ form {
 
 .qitalogin li {
   float: left;
-  position: relative; }
+  position: relative;
+  margin-left: -30px; }
 
 .show .iconfont {
   width: 34px;
