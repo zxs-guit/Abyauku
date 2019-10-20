@@ -1,0 +1,158 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,td,input,textarea{
+	margin:0;
+	padding:0;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:none;
+}
+body{
+	font-family: "微软雅黑";
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+.Fcart{
+    width: 100%;
+    margin-top: 56px;
+    .cartbox{
+        width: 1143px;
+        // height: 684px;
+        background: pink;
+        margin: 0 auto;
+        .cart{
+            width: 1120px;
+            // height: 684px;
+            margin: 0 auto;
+            .cartTit{
+                width: 1120px;
+                height: 94px;
+                padding-top: 40px;
+                h2{
+                    font-size: 28px;
+                }
+            }
+            .shoppingcart{
+                width: 1120px;
+                // height: 590px;
+                background: crimson;
+                .checkAddcart{
+                    width: 1120px;
+                    height: 54px;
+                    background: cyan;
+                    display: flex;
+                    align-items: center;
+                    .selectgoodsBox{
+                        margin-left: 25px;
+                        vertical-align: -3px;
+                        label{
+                            display: inline-block;
+                            font-weight: 400;
+                            margin-bottom: 0;
+                        }
+                    }
+                    .goodsName{
+                        width: 480px;
+                        margin-left: 130px;
+                        display: inline-block;
+                    }
+                    .goodsNames{
+                        margin-right: 76px;
+                        display: inline-block;
+                    }
+                }
+                .goodsBox{
+                    width: 1120px;
+                    height: 102px;
+                    background: chartreuse;
+                    border: 1px solid #cccccc;
+                    display: flex;
+                    align-items: center;
+                    margin-top: 10px;
+                    .radioBox{
+                        width: 20px;
+                        height: 20px;
+                        background: purple;
+                        float: left;
+                        margin-left: 30px;
+                        margin-right: 10px;
+                        cursor: pointer;
+                        .cartselect{
+                            display: inline-block;
+                            width: 16px;
+                            height: 16px;
+                        }
+                    }
+                    .goodsImgBox{
+                        width: 60px;
+                        height: 60px;
+                        float: left;
+                        img{
+                            width: 60px;
+                            height: 60px;
+                            float: left;
+                        }
+                    }
+                    .productName{
+                        float: left;
+                        width: 400px;
+                        background: pink;
+                        margin-top:-35px;
+                    }
+                    .cartcount{
+                        float: left;
+                        margin-left: 135px;
+                        margin-right: 70px;
+                        .AddandReduce{
+                            margin-left: 50px;
+                            margin-right: 45px;
+                        }
+                    }
+                    .delete{
+                        float: left;
+                    }
+                }
+                .selectbox{
+                    width: 1120px;
+                    height: 102px;
+                    line-height: 102px;
+                    display: table-cell;
+                    .goodsTotalBox{
+                        margin-left: 30px;
+                        margin-right: 30px;
+                        float: left;
+                    }
+                    .delete{
+                        margin-right: 30px;
+                        float: left;
+                    }
+                    .clear{
+                        float: left;
+                    }
+                    .jiesuan{
+                        margin-left: 20px;
+                        background: purple;
+                        float: right;
+                    }
+                    .comfirm{
+                        width: 190px;
+                        height: 48px;
+                        background: pink;
+                        float: right;
+                        margin-right: 20px;
+                        margin-left: 50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}

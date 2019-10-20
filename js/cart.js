@@ -18,20 +18,3 @@ $(function(){
         $.getScript("js/share.js");
     });
 })
-
-//开关
-var kgbutton=document.getElementById("showcount");
-var k=document.getElementById("icon-kg-k");
-var g=document.getElementById("icon-kg-g");
-var kaiguan=0;   //0表示开关关闭
-kgbutton.onclick=function(){
-    if(kaiguan==0){
-        kaiguan=1;
-        k.style.display="none";
-        g.style.display="block";
-    }else{
-        kaiguan=0;
-        k.style.display="block";
-        g.style.display="none";
-    }
-}

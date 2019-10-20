@@ -1,0 +1,129 @@
+@charset "UTF-8";
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, hr, td, input, textarea {
+  margin: 0;
+  padding: 0; }
+
+ul, ol, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: none; }
+
+body {
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; }
+
+.Fcart {
+  width: 100%;
+  margin-top: 56px; }
+  .Fcart .cartbox {
+    width: 1143px;
+    background: pink;
+    margin: 0 auto; }
+    .Fcart .cartbox .cart {
+      width: 1120px;
+      margin: 0 auto; }
+      .Fcart .cartbox .cart .cartTit {
+        width: 1120px;
+        height: 94px;
+        padding-top: 40px; }
+        .Fcart .cartbox .cart .cartTit h2 {
+          font-size: 28px; }
+      .Fcart .cartbox .cart .shoppingcart {
+        width: 1120px;
+        background: crimson; }
+        .Fcart .cartbox .cart .shoppingcart .checkAddcart {
+          width: 1120px;
+          height: 54px;
+          background: cyan;
+          display: flex;
+          align-items: center; }
+          .Fcart .cartbox .cart .shoppingcart .checkAddcart .selectgoodsBox {
+            margin-left: 25px;
+            vertical-align: -3px; }
+            .Fcart .cartbox .cart .shoppingcart .checkAddcart .selectgoodsBox label {
+              display: inline-block;
+              font-weight: 400;
+              margin-bottom: 0; }
+          .Fcart .cartbox .cart .shoppingcart .checkAddcart .goodsName {
+            width: 480px;
+            margin-left: 130px;
+            display: inline-block; }
+          .Fcart .cartbox .cart .shoppingcart .checkAddcart .goodsNames {
+            margin-right: 76px;
+            display: inline-block; }
+        .Fcart .cartbox .cart .shoppingcart .goodsBox {
+          width: 1120px;
+          height: 102px;
+          background: chartreuse;
+          border: 1px solid #cccccc;
+          display: flex;
+          align-items: center;
+          margin-top: 10px; }
+          .Fcart .cartbox .cart .shoppingcart .goodsBox .radioBox {
+            width: 20px;
+            height: 20px;
+            background: purple;
+            float: left;
+            margin-left: 30px;
+            margin-right: 10px;
+            cursor: pointer; }
+            .Fcart .cartbox .cart .shoppingcart .goodsBox .radioBox .cartselect {
+              display: inline-block;
+              width: 16px;
+              height: 16px; }
+          .Fcart .cartbox .cart .shoppingcart .goodsBox .goodsImgBox {
+            width: 60px;
+            height: 60px;
+            float: left; }
+            .Fcart .cartbox .cart .shoppingcart .goodsBox .goodsImgBox img {
+              width: 60px;
+              height: 60px;
+              float: left; }
+          .Fcart .cartbox .cart .shoppingcart .goodsBox .productName {
+            float: left;
+            width: 400px;
+            background: pink;
+            margin-top: -35px; }
+          .Fcart .cartbox .cart .shoppingcart .goodsBox .cartcount {
+            float: left;
+            margin-left: 135px;
+            margin-right: 70px; }
+            .Fcart .cartbox .cart .shoppingcart .goodsBox .cartcount .AddandReduce {
+              margin-left: 50px;
+              margin-right: 45px; }
+          .Fcart .cartbox .cart .shoppingcart .goodsBox .delete {
+            float: left; }
+        .Fcart .cartbox .cart .shoppingcart .selectbox {
+          width: 1120px;
+          height: 102px;
+          line-height: 102px;
+          display: table-cell; }
+          .Fcart .cartbox .cart .shoppingcart .selectbox .goodsTotalBox {
+            margin-left: 30px;
+            margin-right: 30px;
+            float: left; }
+          .Fcart .cartbox .cart .shoppingcart .selectbox .delete {
+            margin-right: 30px;
+            float: left; }
+          .Fcart .cartbox .cart .shoppingcart .selectbox .clear {
+            float: left; }
+          .Fcart .cartbox .cart .shoppingcart .selectbox .jiesuan {
+            margin-left: 20px;
+            background: purple;
+            float: right; }
+          .Fcart .cartbox .cart .shoppingcart .selectbox .comfirm {
+            width: 190px;
+            height: 48px;
+            background: pink;
+            float: right;
+            margin-right: 20px;
+            margin-left: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center; }

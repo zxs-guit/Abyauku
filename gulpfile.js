@@ -54,7 +54,6 @@ gulp.task("watchall",async ()=>{
 		gulp.src("*.html")
 		.pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew"));
     });
-    
     //监听并压缩js
     gulp.watch("js/*.js",async ()=>{
         gulp.src("js/*.js")
@@ -85,11 +84,11 @@ gulp.task("watchall",async ()=>{
         // .pipe(gulp.dest("css"))
 		.pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\css"));  //先在本地文件中产生对应的css文件，然后再监听到www中
     });
-      //监听并压缩CSS
-      gulp.watch("css/*.css",async ()=>{
+    //监听并压缩CSS
+    gulp.watch("css/*.css",async ()=>{
         gulp.src("css/*.css")
         .pipe(minify())
-		.pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\css"));
+        .pipe(gulp.dest("D:\\phpStudy\\WWW\\Abyaunew\\css"));
     });
     // 监听php
     gulp.watch('php/**/*',async ()=>{
