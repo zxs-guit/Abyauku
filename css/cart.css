@@ -23,7 +23,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 56px; }
   .Fcart .cartbox {
     width: 1143px;
-    background: pink;
     margin: 0 auto; }
     .Fcart .cartbox .cart {
       width: 1120px;
@@ -35,14 +34,13 @@ h1, h2, h3, h4, h5, h6 {
         .Fcart .cartbox .cart .cartTit h2 {
           font-size: 28px; }
       .Fcart .cartbox .cart .shoppingcart {
-        width: 1120px;
-        background: crimson; }
+        width: 1120px; }
         .Fcart .cartbox .cart .shoppingcart .checkAddcart {
           width: 1120px;
           height: 54px;
-          background: cyan;
           display: flex;
-          align-items: center; }
+          align-items: center;
+          border: 1px solid #ccc; }
           .Fcart .cartbox .cart .shoppingcart .checkAddcart .selectgoodsBox {
             margin-left: 25px;
             vertical-align: -3px; }
@@ -60,7 +58,6 @@ h1, h2, h3, h4, h5, h6 {
         .Fcart .cartbox .cart .shoppingcart .goodsBox {
           width: 1120px;
           height: 102px;
-          background: chartreuse;
           border: 1px solid #cccccc;
           display: flex;
           align-items: center;
@@ -68,7 +65,6 @@ h1, h2, h3, h4, h5, h6 {
           .Fcart .cartbox .cart .shoppingcart .goodsBox .radioBox {
             width: 20px;
             height: 20px;
-            background: purple;
             float: left;
             margin-left: 30px;
             margin-right: 10px;
@@ -88,7 +84,6 @@ h1, h2, h3, h4, h5, h6 {
           .Fcart .cartbox .cart .shoppingcart .goodsBox .productName {
             float: left;
             width: 400px;
-            background: pink;
             margin-top: -35px; }
           .Fcart .cartbox .cart .shoppingcart .goodsBox .cartcount {
             float: left;
@@ -97,6 +92,9 @@ h1, h2, h3, h4, h5, h6 {
             .Fcart .cartbox .cart .shoppingcart .goodsBox .cartcount .AddandReduce {
               margin-left: 50px;
               margin-right: 45px; }
+              .Fcart .cartbox .cart .shoppingcart .goodsBox .cartcount .AddandReduce .count {
+                width: 20px;
+                text-align: center; }
           .Fcart .cartbox .cart .shoppingcart .goodsBox .delete {
             float: left; }
         .Fcart .cartbox .cart .shoppingcart .selectbox {
@@ -114,16 +112,43 @@ h1, h2, h3, h4, h5, h6 {
           .Fcart .cartbox .cart .shoppingcart .selectbox .clear {
             float: left; }
           .Fcart .cartbox .cart .shoppingcart .selectbox .jiesuan {
+            width: 264px;
+            height: 60px;
+            line-height: 60px;
             margin-left: 20px;
-            background: purple;
-            float: right; }
+            float: right;
+            margin-top: 20px; }
+            .Fcart .cartbox .cart .shoppingcart .selectbox .jiesuan .quantity {
+              color: #eb3737;
+              font-size: 18px; }
+            .Fcart .cartbox .cart .shoppingcart .selectbox .jiesuan .price {
+              color: #eb3737;
+              font-size: 20px; }
           .Fcart .cartbox .cart .shoppingcart .selectbox .comfirm {
-            width: 190px;
-            height: 48px;
-            background: pink;
             float: right;
             margin-right: 20px;
             margin-left: 50px;
             display: flex;
             justify-content: center;
-            align-items: center; }
+            align-items: center;
+            margin-top: 20px; }
+            .Fcart .cartbox .cart .shoppingcart .selectbox .comfirm a {
+              width: 190px;
+              height: 48px;
+              line-height: 48px;
+              font-size: 18px;
+              text-align: center;
+              color: #ffffff;
+              background: #ff4444;
+              text-decoration: none; }
+        .Fcart .cartbox .cart .shoppingcart .kongcart {
+          width: 1120px;
+          height: 200px;
+          border: 1px solid #ccc;
+          font-size: 20px;
+          color: cornflowerblue;
+          line-height: 200px;
+          text-align: center;
+          display: none; }
+          .Fcart .cartbox .cart .shoppingcart .kongcart a {
+            text-decoration: none; }

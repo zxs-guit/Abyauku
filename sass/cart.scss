@@ -24,7 +24,6 @@ h1, h2, h3, h4, h5, h6 {
     .cartbox{
         width: 1143px;
         // height: 684px;
-        background: pink;
         margin: 0 auto;
         .cart{
             width: 1120px;
@@ -41,13 +40,12 @@ h1, h2, h3, h4, h5, h6 {
             .shoppingcart{
                 width: 1120px;
                 // height: 590px;
-                background: crimson;
                 .checkAddcart{
                     width: 1120px;
                     height: 54px;
-                    background: cyan;
                     display: flex;
                     align-items: center;
+                    border: 1px solid #ccc;
                     .selectgoodsBox{
                         margin-left: 25px;
                         vertical-align: -3px;
@@ -70,7 +68,6 @@ h1, h2, h3, h4, h5, h6 {
                 .goodsBox{
                     width: 1120px;
                     height: 102px;
-                    background: chartreuse;
                     border: 1px solid #cccccc;
                     display: flex;
                     align-items: center;
@@ -78,7 +75,6 @@ h1, h2, h3, h4, h5, h6 {
                     .radioBox{
                         width: 20px;
                         height: 20px;
-                        background: purple;
                         float: left;
                         margin-left: 30px;
                         margin-right: 10px;
@@ -102,7 +98,6 @@ h1, h2, h3, h4, h5, h6 {
                     .productName{
                         float: left;
                         width: 400px;
-                        background: pink;
                         margin-top:-35px;
                     }
                     .cartcount{
@@ -112,6 +107,10 @@ h1, h2, h3, h4, h5, h6 {
                         .AddandReduce{
                             margin-left: 50px;
                             margin-right: 45px;
+                            .count{
+                                width: 20px;
+                                text-align: center;
+                            }
                         }
                     }
                     .delete{
@@ -136,20 +135,55 @@ h1, h2, h3, h4, h5, h6 {
                         float: left;
                     }
                     .jiesuan{
+                        width: 264px;
+                        height: 60px;
+                        line-height: 60px;
                         margin-left: 20px;
-                        background: purple;
                         float: right;
+                        margin-top: 20px;
+                        .quantity{
+                            color: rgb(235, 55, 55);
+                            font-size: 18px;
+                        }
+                        .price{
+                            color: rgb(235, 55, 55);
+                            font-size: 20px;
+                        }
                     }
                     .comfirm{
-                        width: 190px;
-                        height: 48px;
-                        background: pink;
+                        // width: 190px;
+                        // height: 48px;
+                        // background: pink;
                         float: right;
                         margin-right: 20px;
                         margin-left: 50px;
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                        margin-top: 20px;
+                        a{
+                            width: 190px;
+                            height: 48px;
+                            line-height: 48px;
+                            font-size: 18px;
+                            text-align: center;
+                            color: #ffffff;
+                            background: #ff4444;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .kongcart{
+                    width: 1120px;
+                    height: 200px;
+                    border: 1px solid #ccc;
+                    font-size: 20px;
+                    color: cornflowerblue;
+                    line-height: 200px;
+                    text-align: center;
+                    display: none;
+                    a{
+                        text-decoration: none;
                     }
                 }
             }
